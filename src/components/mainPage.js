@@ -6,6 +6,7 @@ import TableData from './table';
 import LineChat from './lineChat';
 import BarChat from './barChat';
 import DoughnutChat from './doughnutChat';
+import DragAndDrop from './dragAndDrop';
 
 function MainPage() {
     return (
@@ -16,9 +17,10 @@ function MainPage() {
                 <Route path="/linechat" component={LineChat} />
                 <Route path="/barchat" component={BarChat} />
                 <Route path="/doughnut" component={DoughnutChat} />
+                <Route path="/draganddrop" component={DragAndDrop} />
             </Switch>
         </Box>
     )
 }
 
-export default MainPage
+export default MainPage;

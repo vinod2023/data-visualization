@@ -10,7 +10,6 @@ function BarChat(props) {
         datasets: [
             {
                 label: 'Sales Data of products quantity',
-                borderColor: "black",
                 borderWidth: 1,
                 borderColor: 'pink',
                 backgroundColor: 'pink',

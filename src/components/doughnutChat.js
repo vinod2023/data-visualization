@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, Doughnut } from 'react-chartjs-2';
+import { Doughnut } from 'react-chartjs-2';
 import { connect } from 'react-redux';
 import ErrorText from './errorText';
 

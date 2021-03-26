@@ -1,13 +1,10 @@
 import { Table, TableBody, TableCell, TableHead, TableRow } from '@material-ui/core';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import ErrorText from './errorText';
 
 function TableData(props) {
 
-    useEffect(() => {
-        console.log(props.data);
-    }, [props.data])
     return (
         <div>
             {
@@ -52,9 +49,9 @@ function TableData(props) {
                         </TableHead>
                         <TableBody>
                             {
-                                props.data.map(d => {
+                                props.data.map((d, index) => {
                                     return (
-                                        <TableRow className="tableRow">
+                                        <TableRow className="tableRow" key={index}>
                                             <TableCell scope="col" align="center">
                                                 {d.SalesOrderID}
                                             </TableCell>

@@ -10,6 +10,7 @@ function Navigation() {
           <Link to="/linechat" >LineChat</Link>
           <Link to="/barchat" >BarChat</Link>
           <Link to="/doughnut" >DoughnutChat</Link>
+          <Link to="/draganddrop" >DragAndDrop</Link>
       </div>
     )
 }
